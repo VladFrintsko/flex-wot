@@ -1,0 +1,129 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  background-color: rgb(31, 31, 31);
+}
+/* header */
+.head_wrapper {
+  background-color: rgb(31, 31, 31);
+}
+.head_bg{
+  background: url('../imgs/bg_fon.jpg');
+}
+.type_wrapper{
+  max-width: 95%;
+  margin: 0 auto;
+}
+header {
+  background-color: rgba(39, 39, 43, 0.85);
+}
+.nav_wrapper {
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+.nav_link {
+  font-size: 1.2em;
+}
+path{
+  transition: all .2s;
+}
+.logo{
+  cursor: pointer;
+}
+.logo:hover path{
+  fill: white;
+}
+.random_tank {
+  border: 2px solid #f25322;
+  padding: 10px 20px;
+  font-weight: 700;
+  font-family: "Roboto Condensed", "Arial Narrow", Arial, sans-serif;
+  transition: all 0.4s;
+  cursor: pointer;
+  color: #f25322;
+}
+.my_tank{
+  color: white;
+}
+.random_tank:hover {
+  box-shadow: 0 0 0 #661000, inset 0 0 8px rgba(255, 210, 0, 0.1),
+    inset 0 1px 0 #fab81b, inset 0 -1px 0 #ef4511;
+  background: linear-gradient(to bottom, #fab81b 0%, #ef4511 100%) no-repeat 0,
+    linear-gradient(to bottom, #fab81b 0%, #ef4511 100%) no-repeat 100%,
+    #f25322 linear-gradient(to bottom, #f60 0%, #a6230e 100%) no-repeat;
+  background-size: 1px 100%, 1px 100%, cover;
+  left: -2px;
+  right: -2px;
+  top: -2px;
+  bottom: -2px;
+  color: white;
+}
+
+/* main */
+h3 {
+  color: white;
+}
+.main_info {
+  max-width: 95%;
+  margin: 0 auto;
+}
+.nations {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.tank_type {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.tank_type div {
+  margin-left: 30px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.nations div {
+  margin-left: 30px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.icon_name {
+  color: #cc9922;
+  font-weight: 700;
+  transition: .4s;
+  position: relative;
+  left: 35px;
+}
+.icon_wrapper {
+  max-width: 200px;
+}
+.icon {
+  width: 100%;
+}
+.icon_wrapper:hover .icon_name {
+  color: white;
+}
+li{
+  color: white;
+  padding: 0 20px 0 20px;
+}
+.tank_info{
+  display: flex;
+  justify-content: center;
+}
+.tank_info div{
+  width: 20%;
+  text-align: center;
+  padding: 10px 0 10px 0;
+}
+#list{
+  width: 95%;
+  margin: 0 auto;
+}
+.list_wrapper{
+  background-color: rgba(126, 125, 125, 0.1);
+}
