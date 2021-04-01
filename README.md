@@ -1,1 +1,1 @@
-Render WoT items (nations, tanks 10 level)
+Render WoT items (nations, type oftanks)
