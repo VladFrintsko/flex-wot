@@ -1,1 +1,1 @@
-Render WoT items (nations, type oftanks)
+Render WoT items (nations, type of tanks)
